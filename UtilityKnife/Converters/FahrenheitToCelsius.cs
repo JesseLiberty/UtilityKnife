@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace UtilityKnife.Converters
+﻿namespace UtilityKnife.Converters
 {
-    class FahrenheitToCelsius
+    public class FahrenheitToCelsius
     {
+        public double FahrenheitToCelsiusConverter(double FahrenheitTemp)
+        {
+            double _fahreneithTemp = 0.0;
+            double _celsius = 0.0;
+            return _celsius;
+        }
     }
 }
