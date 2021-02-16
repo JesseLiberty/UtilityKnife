@@ -1,26 +1,26 @@
 ﻿namespace UtilityKnife.Calculator
 {
-    public class Calculator
+    public static class Calculator
     {
-        public int Add(int x, int y)
+        public static double Add(double x, double y)
         {
             return x + y;
         }
-        public int Subtract(int x, int y)
+        public static double Subtract(double x, double y)
         {
             return x - y;
         }
-        public int Multiply(int x, int y)
+        public static double Multiply(double x, double y)
         {
             return x * y;
         }
 
-        public int Division(int x, int y)
+        public static int Division(int x, int y)
         {
             return x / y;
         }
 
-        public double Divison(double x, double y)
+        public static double Division(double x, double y)
         {
             return x / y;
         }
