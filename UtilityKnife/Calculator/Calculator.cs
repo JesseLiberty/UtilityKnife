@@ -20,6 +20,10 @@
             return x / y;
         }
 
+        public double Divison(double x, double y)
+        {
+            return x / y;
+        }
 
     }
 }
